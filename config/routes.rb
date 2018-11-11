@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'demo#index'
+  root 'subjects#index'
 
   resources :subjects do 
   	member do 
@@ -8,6 +8,4 @@ Rails.application.routes.draw do
   end 
   
 
-
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
